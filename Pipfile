@@ -4,9 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-flask = "*"
-requests = "==2.25.1"
-python-dotenv = "==0.15.0"
 
 [dev-packages]
 
