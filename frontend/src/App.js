@@ -7,7 +7,9 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Welcome from "./components/Welcome";
-const UNSPLASH_KEY = process.env.REACT_APP_UNSPLASH_KEY;
+// const UNSPLASH_KEY = process.env.REACT_APP_UNSPLASH_KEY;
+
+const API_URL = process.env.REACT_APP_API_URL || "http://127.0.0.1:5050";
 
 const App = () => {
   const [word, setWord] = useState("");
@@ -17,7 +19,8 @@ const App = () => {
     e.preventDefault();
     // console.log(word);
     fetch(
-      `https://api.unsplash.com/photos/random/?query=${word}&client_id=${UNSPLASH_KEY}`
+      // `https://api.unsplash.com/photos/random/?query=${word}&client_id=${UNSPLASH_KEY}`
+      `${API_URL}/new-image?query=${word}`
     )
       .then((res) => res.json())
       .then((data) => {
