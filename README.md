@@ -2,13 +2,17 @@
 
 ### Screenshot of the app:
 
-### Main view:
+### Welcome page view:
+
+  <img src="/img/gallery1.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 800px">
+
+### Search view with retrieved ImageCards:
 
   <img src="/img/gallery.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 800px">
-
+  
 ## Overview
 
-This is the React and Python Flask single-page full stack application that retrieves photos using Flask API. It consists of the frontend and backend parts. The frontend is built using JavaScript React. The backend API is built using Python Flask. It allows users to search for images, saving images and deleting them.
+This is the React and Python Flask single-page full stack application that retrieves photos using Flask API. It consists of the frontend and backend parts. The frontend is built using JavaScript React. The backend API is built using Python Flask. It allows users to search for images and deleting them.
 In order to start ENTER any search term in the input field.
 
 ## Technical steps:
