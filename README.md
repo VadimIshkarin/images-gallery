@@ -1,6 +1,6 @@
 # Images Gallery App
 
-### Screenshots of the app:
+### Screenshot of the app:
 
 ### Main view:
 
@@ -8,16 +8,21 @@
 
 ## Overview
 
-This is the React and Python Flask full stack app. It consists of the frontend and backend parts. The frontend is built using JavaScript React. The backend API is built using Python Flask. It allows users to search for images, saving images and deleting them.
+This is the React and Python Flask single-page full stack application that retrieves photos using Flask API. It consists of the frontend and backend parts. The frontend is built using JavaScript React. The backend API is built using Python Flask. It allows users to search for images, saving images and deleting them.
+In order to start ENTER any search term in the input field.
 
-## Technical Features:
+## Technical steps:
 
-- It is a single-page application (SPA)
-- Used useEffect and useState React hooks
+- Initialized a React app using create-react-app
+- Created React components, used useEffect, useState React hooks
 - Used React props and state
-- Created a Python virtual environment using pipenv
-- Used Flask routes
-- Made external API calls from the Flask App
+- Made API request to the Unsplash API
+- Created a Python virtual environment for API application using pipenv
+- Installed Python Flask, dotenv and requests, created Flask routes and basic Flask web server
+- Retrieved random image in the own API from the Unsplash API
+- Tested Unsplash API endpoint with Postman
+- Changed frontend app to use Flask API instead of Unsplash API and enabled CORS (Flask CORS)
+- Tested Flask API endpoint with Postman
 
 ## Dependencies:
 
@@ -27,5 +32,5 @@ This is the React and Python Flask full stack app. It consists of the frontend a
 - React-redux
 - React-scripts
 - Python-dotenv
-- Flask-cors
+- Flask-CORS
 - Requests
